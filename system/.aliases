@@ -1,0 +1,24 @@
+# My custom alias
+alias -g dev="~/scripts/dev-tmux.sh"
+alias -g srv="python manage.py runserver"
+
+
+# for react dev env
+alias -g rdev="~/scripts/react-dev.sh"
+
+#extra automation
+alias -g attach="tmux attach"
+alias -g reload="source ~/Projects/dotfiles/.zshrc"
+alias gpom='git push origin master'
+alias home='cd ~'
+
+
+#Git CLI alias"
+alias g='git'
+alias gi='git init'
+alias ga='git add'
+alias gra='git remote add'
+alias gs='git status'
+alias migrate='python manage.py migrate'
+alias makemigrations='python manage.py makemigrations'
+alias srm='sudo rm -r '
