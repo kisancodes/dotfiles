@@ -1,0 +1,50 @@
+autocmd BufWritePost .vimrc source %
+set encoding=utf-8
+set laststatus=2
+set t_Co=256
+"
+" Plugins Begin
+call plug#begin('~/.vim/plugged')
+
+Plug 'easymotion/vim-easymotion'
+Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plug 'junegunn/fzf.vim'
+Plug 'vim-scripts/indentpython.vim'
+Plug 'tpope/vim-fugitive'
+Plug 'jiangmiao/auto-pairs'
+Plug 'tpope/vim-surround'
+
+Plug 'tmhedberg/matchit'
+Plug 'tomtom/tcomment_vim'
+Plug 'SirVer/ultisnips' 
+Plug 'honza/vim-snippets'
+Plug 'rstacruz/sparkup'
+
+Plug 'Valloric/YouCompleteMe', {'do':'./install.py --all'}
+
+
+
+
+"Colors for Vim
+Plug 'jnurmine/Zenburn'
+Plug 'altercation/vim-colors-solarized'
+Plug 'liuchengxu/space-vim-theme'
+Plug 'vim-airline/vim-airline'
+
+
+" For tmux and vim navigation
+Plug 'christoomey/vim-tmux-navigator'
+
+
+
+
+
+
+
+call plug#end()
+
+source ~/.vim/startup/settings.vim
+source ~/.vim/startup/mappings.vim
+source ~/.vim/startup/compileAndRun.vim
+source ~/.vim/startup/pluginSettings.vim
