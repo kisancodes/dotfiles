@@ -44,3 +44,6 @@ nnoremap tj :tabprev<cr>
 
 "Enable NERDTree
 nnoremap nt :NERDTree<cr>
+
+" J; to add semicolon at the end of the line
+inoremap j; <esc>A;
