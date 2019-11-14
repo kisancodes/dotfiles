@@ -10,7 +10,7 @@ if has('gui_running')
 		colorscheme solarized
 else
 		set background=dark
-		colorscheme zenburn
+		colorscheme desert
 endif
 
 
