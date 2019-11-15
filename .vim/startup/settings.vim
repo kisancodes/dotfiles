@@ -1,5 +1,6 @@
 set t_Co=256
 set nocompatible
+set mouse=a
 
 set splitbelow
 set splitright

@@ -1,5 +1,4 @@
 # My custom alias
-alias -g dev="~/scripts/dev-tmux.sh"
 alias -g srv="python manage.py runserver"
 
 

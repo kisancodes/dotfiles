@@ -4,15 +4,9 @@ noremap <Space>f :Files<CR>
 noremap <Space>l :Lines<CR>
 noremap <Space>bl :BLines<CR>
 
-" Toggle between color scheme 
-if has('gui_running')
-		set background=light
-		colorscheme solarized
-else
-		set background=dark
-		colorscheme desert
-endif
-
+"Plugins
+set background=dark
+colorscheme solarized8
 
 " Ultisnips settings
 let g:UltiSnipsExpandTrigger="<nop>" 
