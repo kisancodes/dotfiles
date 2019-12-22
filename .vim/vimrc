@@ -36,8 +36,11 @@ Plug 'lifepillar/vim-solarized8'
 " For tmux and vim navigation
 Plug 'christoomey/vim-tmux-navigator'
 
-
-
+"For React
+Plug 'yuezk/vim-js'
+Plug 'maxmellon/vim-jsx-pretty'
+Plug 'mlaursen/vim-react-snippets'
+" Plug 'prettier/vim-prettier', { 'do': 'yarn install', 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'yaml', 'html']  }
 
 
 
