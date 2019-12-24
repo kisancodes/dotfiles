@@ -1,3 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =1
+let g:netrw_dirhist_cnt =4
 let g:netrw_dirhist_1='/home/sagar/Projects/djecommerce'
+let g:netrw_dirhist_2='/home/sagar/JS/hackernews/src'
+let g:netrw_dirhist_3='/home/sagar/JS/yts_clone/src/components'
+let g:netrw_dirhist_4='/home/sagar/JS/learn_react'
