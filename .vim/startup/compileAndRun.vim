@@ -22,7 +22,7 @@ func! CompileRunGcc()
 								exec "!time go run %"
 				elseif &filetype == 'mkd'
 								exec "!~/.vim/markdown.pl % > %.html &"
-								exec "!firefox %.html &"
+								exec "!google-chrome%.html &"
 				endif
 endfunc
 	 				 				 				

@@ -40,10 +40,5 @@ else
 endif
 "
 
-
-"Toggle color scheme by pressing <F4>
-call togglebg#map("<F4>")
-
-
 "Ultiznips trigger
 let g:UltiSnipsExpandTrigger="<c-l>"

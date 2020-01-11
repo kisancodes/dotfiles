@@ -6,27 +6,26 @@ export PATH="~/anaconda/bin:$PATH"
 # added by Anaconda3 2018.12 installer
 # >>> conda init >>>
 # !! Contents within this block are managed by 'conda init' !!
-__conda_setup="$(CONDA_REPORT_ERRORS=false '/home/sagar/anaconda3/bin/conda' shell.bash hook 2> /dev/null)"
+__conda_setup="$(CONDA_REPORT_ERRORS=false '/home/jarvis/anaconda3/bin/conda' shell.bash hook 2> /dev/null)"
 if [ $? -eq 0 ]; then
     \eval "$__conda_setup"
 else
-    if [ -f "/home/sagar/anaconda3/etc/profile.d/conda.sh" ]; then
-        . "/home/sagar/anaconda3/etc/profile.d/conda.sh"
+    if [ -f "/home/jarvis/anaconda3/etc/profile.d/conda.sh" ]; then
+        . "/home/jarvis/anaconda3/etc/profile.d/conda.sh"
         CONDA_CHANGEPS1=false conda activate base
     else
-        \export PATH="/home/sagar/anaconda3/bin:$PATH"
+        \export PATH="/home/jarvis/anaconda3/bin:$PATH"
     fi
 fi
 unset __conda_setup
 # <<< conda init <<<
 
 #for syntastic
-# export PYTHONPATH ="/home/sagar/anaconda3/bin:$PYTHONPATH"
+# export PYTHONPATH ="/home/jarvis/anaconda3/bin:$PYTHONPATH"
 
 [[ -e /etc/zsh_command_not_found  ]] && source /etc/zsh_command_not_found
 
 # Path to your oh-my-zsh installation.
-  export ZSH="/home/sagar/.oh-my-zsh"
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -88,7 +87,6 @@ ZSH_THEME="cobalt2"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git)
 
-source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
