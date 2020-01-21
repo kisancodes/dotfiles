@@ -3,11 +3,11 @@ alias -g srv="python manage.py runserver"
 
 
 # for react dev env
-alias -g rdev="~/scripts/react-dev.sh"
+alias -g tlt="~/scripts/dev-tmux.sh"
 
 #extra automation
 alias -g attach="tmux attach"
-alias -g reload="source ~/Projects/dotfiles/.zshrc"
+alias -g reload="source ~/.zshrc"
 alias gpom='git push origin master'
 alias home='cd ~'
 

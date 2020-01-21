@@ -4,4 +4,3 @@ tmux new-session \; \
   select-pane -t 1 \; \
   select-pane -t 0 \; \
   send-keys 'vim' C-m\;
-  select-pane -t 2 \; \

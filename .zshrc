@@ -4,10 +4,18 @@
 # Path to your oh-my-zsh installation.
 export ZSH="/home/sagar/.oh-my-zsh"
 
+export SPARK_HOME="/usr/local/spark"
+export PATH=$PATH:/usr/local/spark/bin
+
 
 ###############################
 # For Anaconda 
 export PATH="~/anaconda/bin:$PATH"
+
+# add $HOME/bin if folder exists
+if [ -d "$HOME/bin" ] ; then
+  PATH="$PATH:$HOME/bin"
+fi
 # added by Anaconda3 2018.12 installer
 # >>> conda init >>>
 # !! Contents within this block are managed by 'conda init' !!

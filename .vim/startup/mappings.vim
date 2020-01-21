@@ -15,10 +15,10 @@ inoremap <right> <Nop>
 inoremap <up> <Nop>
 inoremap <down> <Nop>
 
-noremap <left> <Nop>
-noremap <right> <Nop>
-noremap <up> <Nop>
-noremap <down> <Nop>
+" noremap <left> <Nop>
+" noremap <right> <Nop>
+" noremap <up> <Nop>
+" noremap <down> <Nop>
 
 "split navigations
 nnoremap <C-J> <C-W><C-J>

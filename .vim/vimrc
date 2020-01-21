@@ -21,10 +21,7 @@ Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
 Plug 'rstacruz/sparkup'
 
-Plug 'Valloric/YouCompleteMe', {'do':'./install.py --all'}
-
-
-
+Plug 'Valloric/YouCompleteMe', {'do':'./install.py --clang-completer'}
 
 "Colors for Vim
 " Plug 'jnurmine/Zenburn'
