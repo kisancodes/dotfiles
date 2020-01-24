@@ -1,4 +1,5 @@
 # DOTFILES
+This is for ubuntu linux. It may not work with other distros and macos. Try on your own risk. 
 ## Commands I execute after fressh installation
 
 `sudo apt install git` </br>
