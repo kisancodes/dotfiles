@@ -6,7 +6,7 @@ alias -g srv="python manage.py runserver"
 alias -g tlt="~/scripts/dev-tmux.sh"
 
 #extra automation
-alias -g attach="tmux attach"
+# alias -g attach="tmux attach"
 alias -g reload="source ~/.zshrc"
 alias gpom='git push origin master'
 alias home='cd ~'
