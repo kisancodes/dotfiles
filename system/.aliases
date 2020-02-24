@@ -1,7 +1,6 @@
 # My custom alias
 alias -g srv="python manage.py runserver"
-
-
+ 
 # for react dev env
 alias -g tlt="~/scripts/dev-tmux.sh"
 
@@ -11,6 +10,8 @@ alias -g reload="source ~/.zshrc"
 alias gpom='git push origin master'
 alias home='cd ~'
 
+# Launching tmuxinator as mux
+alias -g mux='tmuxinator'
 
 #Git CLI alias"
 alias g='git'
