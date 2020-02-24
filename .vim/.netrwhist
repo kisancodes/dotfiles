@@ -1,4 +1,6 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =2
-let g:netrw_dirhist_1='/home/sagar/Distributed'
-let g:netrw_dirhist_2='/home/sagar/.tmux'
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/var/www/html/PHPRest/api/host'
+let g:netrw_dirhist_2='/home/sagar/Projects/areacheck/frontend/src'
+let g:netrw_dirhist_3='/home/sagar/.config'
+let g:netrw_dirhist_4='/home/sagar/.config/i3'

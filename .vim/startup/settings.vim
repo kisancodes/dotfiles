@@ -29,7 +29,7 @@ set foldlevel=99
 set nobackup
 set nowritebackup
 set noswapfile
-set wrap linebreak nolist
+" set wrap linebreak nolist
 
 "to go to new line while in the middle of the line
 set pastetoggle=<F10>
