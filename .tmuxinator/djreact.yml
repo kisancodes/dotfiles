@@ -1,0 +1,16 @@
+# ~/.tmuxinator/djreact.yml
+
+name: djreact
+root: ~/Projects/subisu
+
+windows:
+  - editor:
+      layout: main-horizontal
+      panes:
+        - vim
+        - cd backend; pipenv shell
+        - cd frontend
+  - console:
+      panes:
+        - cd backend && pipenv shell; ./manage.py runserver
+        - cd frontend && npm start
