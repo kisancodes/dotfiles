@@ -12,5 +12,4 @@ windows:
         - cd frontend
   - console:
       panes:
-        - cd backend && pipenv shell; ./manage.py runserver
-        - cd frontend && npm start
+        - docker-compose up
