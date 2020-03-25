@@ -6,7 +6,7 @@ export ZSH="/home/sagar/.oh-my-zsh"
 
 export SPARK_HOME="/usr/local/spark"
 export PATH=$PATH:/usr/local/spark/bin
-
+export PATH=$HOME/.local/bin:$PATH
 
 ###############################
 # For Anaconda 
