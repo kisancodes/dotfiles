@@ -1,15 +1,13 @@
 # My custom alias
 alias -g srv="python manage.py runserver"
  
-# for react dev env
-alias -g tlt="~/scripts/dev-tmux.sh"
-
-#extra automation
 # alias -g attach="tmux attach"
 alias -g reload="source ~/.zshrc"
 alias gpom='git push origin master'
 alias home='cd ~'
 
+#make gvim launch on terminal
+alias -g gvim='gvim -v'
 # Launching tmuxinator as mux
 alias -g mux='tmuxinator'
 

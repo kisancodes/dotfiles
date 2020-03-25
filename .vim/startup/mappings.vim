@@ -26,6 +26,8 @@ nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 
+"Not highlight
+nnoremap ,/ :nohlsearch<cr>
 "open vimrc file to edit my vimrc while in the document
 nnoremap <leader>ev :vsp ~/.vim/vimrc<cr>
 
