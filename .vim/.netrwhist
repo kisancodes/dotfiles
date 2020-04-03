@@ -1,5 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_cnt =8
 let g:netrw_dirhist_1='scp://sagar@182.93.64.114//var/www/html/rnoc/'
 let g:netrw_dirhist_2='scp://pi@192.168.0.113//var/www/html/rnoc/'
 let g:netrw_dirhist_3='/home/sagar/Projects/djreact/frontend'
@@ -7,3 +7,4 @@ let g:netrw_dirhist_4='/home/sagar/Projects/subisu/frontend'
 let g:netrw_dirhist_5='/home/sagar/Projects/djreact/frontend'
 let g:netrw_dirhist_6='/etc/resolvconf'
 let g:netrw_dirhist_7='/etc/resolvconf/update-libc.d'
+let g:netrw_dirhist_8='/var/www/html/quiz'
