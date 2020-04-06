@@ -12,10 +12,12 @@ Plug 'tpope/vim-surround'
 Plug 'Valloric/YouCompleteMe', {'do':'./install.py --clang-completer'}
 Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
-Plug 'rstacruz/sparkup'
+Plug 'mattn/emmet-vim'
+Plug 'christoomey/vim-tmux-navigator'
 Plug 'scrooloose/syntastic'
 
 "For Javscript
+Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
 
 
 

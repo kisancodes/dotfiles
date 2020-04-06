@@ -21,10 +21,32 @@ let g:EasyMotion_startofline = 0 " keep cursor column when JK motion"
 let g:ycm_autoclose_preview_window_after_insertion = 1
 let g:ycm_autoclose_preview_window_after_completion = 1
 
-
-
-
-
+"For emmit.vim
+let g:user_emmet_leader_key=','
+let g:user_emmet_settings = {
+  \  'php' : {
+  \    'extends' : 'html',
+  \    'filters' : 'c',
+  \  },
+  \  'xml' : {
+  \    'extends' : 'html',
+  \  },
+  \  'scss' : {
+  \    'extends' : 'css',
+  \  },
+  \  'haml' : {
+  \    'extends' : 'html',
+  \  },
+  \}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 "For Untislips
 let g:UltiSnipsExpandTrigger="<nop>"
 let g:UltiSnipsJumpForwardTrigger="<c-b>"
