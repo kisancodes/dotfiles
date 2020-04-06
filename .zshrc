@@ -38,7 +38,7 @@ unset __conda_setup
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
-ZSH_THEME="cobalt2"
+ZSH_THEME="robbyrussell"
 
 # To see command suggestions
 [[ -e /etc/zsh_command_not_found  ]] && source /etc/zsh_command_not_found
