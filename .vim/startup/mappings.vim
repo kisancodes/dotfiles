@@ -1,51 +1,20 @@
-" Mappings Esc to jk
+"Mappings for jk
 inoremap jk <esc>
-inoremap JK <esc>
-inoremap Jk <esc>
-inoremap jK <esc>
 
-"Disabling arrow keys
-vnoremap <left> <Nop>
-vnoremap <right> <Nop>
-vnoremap <up> <Nop>
-vnoremap <down> <Nop>
-
-inoremap <left> <Nop>
-inoremap <right> <Nop>
-inoremap <up> <Nop>
-inoremap <down> <Nop>
-
-" noremap <left> <Nop>
-" noremap <right> <Nop>
-" noremap <up> <Nop>
-" noremap <down> <Nop>
-
-"split navigations
+"Split navigation
 nnoremap <C-J> <C-W><C-J>
 nnoremap <C-K> <C-W><C-K>
 nnoremap <C-L> <C-W><C-L>
 nnoremap <C-H> <C-W><C-H>
 
-"Not highlight
-nnoremap ,/ :nohlsearch<cr>
-"open vimrc file to edit my vimrc while in the document
+"Open and reload vimrc
 nnoremap <leader>ev :vsp ~/.vim/vimrc<cr>
-
-"reloads to document to allow the changes in vim to work 
 nnoremap <leader>sv :source $MYVIMRC<cr>
 
-inoremap <leader><leader> <esc>o
-
-"for easy otion
-map <Leader> <Plug>(easymotion-prefix)
-
-"mappings for tab
+"Mappings for tabs
 nnoremap tn :tabnew<space>
-nnoremap tk :tabnext<cr>
-nnoremap tj :tabprev<cr>
+nnoremap tk :tabnext<space>
+nnoremap tj :tabprev<space>
 
-"Enable NERDTree
+"Start NERDTree 
 nnoremap nt :NERDTree<cr>
-
-" J; to add semicolon at the end of the line
-inoremap j; <esc>A;

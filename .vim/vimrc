@@ -1,50 +1,29 @@
-autocmd BufWritePost .vimrc source %
-set encoding=utf-8
-set laststatus=2
-set t_Co=256
-"
-" Plugins Begin
 call plug#begin('~/.vim/plugged')
 
+Plug 'tpope/vim-fugitive'
 Plug 'easymotion/vim-easymotion'
 Plug 'scrooloose/nerdtree', { 'on':  'NERDTreeToggle' }
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
-Plug 'vim-scripts/indentpython.vim'
-Plug 'tpope/vim-fugitive'
 Plug 'jiangmiao/auto-pairs'
+Plug 'tmhedberg/matchit'
 Plug 'tpope/vim-surround'
 
-Plug 'tmhedberg/matchit'
-Plug 'tomtom/tcomment_vim'
-Plug 'SirVer/ultisnips' 
+Plug 'Valloric/YouCompleteMe', {'do':'./install.py --clang-completer'}
+Plug 'SirVer/ultisnips'
 Plug 'honza/vim-snippets'
 Plug 'rstacruz/sparkup'
+Plug 'scrooloose/syntastic'
 
-Plug 'Valloric/YouCompleteMe', {'do':'./install.py --clang-completer'}
-
-"Colors for Vim
-" Plug 'jnurmine/Zenburn'
-" Plug 'altercation/vim-colors-solarized'
-" Plug 'liuchengxu/space-vim-theme'
-" Plug 'vim-airline/vim-airline'
-Plug 'lifepillar/vim-solarized8'
-
-" For tmux and vim navigation
-Plug 'christoomey/vim-tmux-navigator'
-
-"For React
-Plug 'yuezk/vim-js'
-Plug 'maxmellon/vim-jsx-pretty'
-Plug 'mlaursen/vim-react-snippets'
-" Plug 'prettier/vim-prettier', { 'do': 'yarn install', 'for': ['javascript', 'typescript', 'css', 'less', 'scss', 'json', 'graphql', 'markdown', 'vue', 'yaml', 'html']  }
+"For Javscript
 
 
 
+"For Colors
+Plug 'sonph/onehalf', {'rtp': 'vim/'}
 
 call plug#end()
 
 source ~/.vim/startup/settings.vim
 source ~/.vim/startup/mappings.vim
-source ~/.vim/startup/compileAndRun.vim
 source ~/.vim/startup/pluginSettings.vim

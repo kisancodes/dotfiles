@@ -1,26 +1,39 @@
-"for fzf history
+"For Colors
+colorscheme onehalfdark
+let g:airline_theme='onehalfdark'
+ 
+"For fzf 
 noremap <Space>h :Hist<CR>
 noremap <Space>f :Files<CR>
 noremap <Space>l :Lines<CR>
 noremap <Space>bl :BLines<CR>
 
-"Plugins
-set background=dark
-colorscheme solarized8
+" Gif config
+map <Leader>l <Plug>(easymotion-lineforward)
+map <Leader>j <Plug>(easymotion-j)
+map <Leader>k <Plug>(easymotion-k)
+map <Leader>h <Plug>(easymotion-linebackward)
 
-" Ultisnips settings
-let g:UltiSnipsExpandTrigger="<nop>" 
-let g:UltiSnipsJumpForwardTrigger="<c-n>"
-let g:UltiSnipsJumpBackwardTrigger="<c-p>"
+"Easymotion
+let g:EasyMotion_startofline = 0 " keep cursor column when JK motion"
 
-"Prettier settings
-" let g:prettier#autoformat = 0
-" autocmd BufWritePre *.js,*.jsx,*.mjs,*.ts,*.tsx,*.css,*.less,*.scss,*.json,*.graphql,*.md,*.vue,*.yaml,*.html PrettierAsync
+"YCM
+let g:ycm_autoclose_preview_window_after_insertion = 1
+let g:ycm_autoclose_preview_window_after_completion = 1
 
-let g:UltiSnipsExpandTrigger = "<nop>"
+
+
+
+
+"For Untislips
+let g:UltiSnipsExpandTrigger="<nop>"
+let g:UltiSnipsJumpForwardTrigger="<c-b>"
+let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 let g:ulti_expand_or_jump_res = 0
 
-function ExpandSnippetOrCarriageReturn()
+"For UltiSnips and YCM to work together
+
+function! ExpandSnippetOrCarriageReturn()
     let snippet = UltiSnips#ExpandSnippetOrJump()
     if g:ulti_expand_or_jump_res > 0
         return snippet
