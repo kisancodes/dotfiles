@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/home/jarvis/Documents/office/sysnode/client'
+let g:netrw_dirhist_2='/home/jarvis/Documents/office/sysnode'
+let g:netrw_dirhist_3='/home/jarvis/Documents/office/sysnode/server'
+let g:netrw_dirhist_4='/home/jarvis/Documents/office/sysnode'
+let g:netrw_dirhist_5='/home/jarvis/Documents/office/sysnode/server'
+let g:netrw_dirhist_6='/home/jarvis/Documents/reveal.js'
+let g:netrw_dirhist_7='/home/jarvis/Documents/office/docker-node'
+let g:netrw_dirhist_8='/home/jarvis/Documents/nodejs-practise'
+let g:netrw_dirhist_9='/home/jarvis/Documents/office/node-login'

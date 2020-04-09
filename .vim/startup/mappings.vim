@@ -18,3 +18,9 @@ nnoremap tj :tabprev<space>
 
 "Start NERDTree 
 nnoremap nt :NERDTree<cr>
+
+"disable arrow keys
+noremap <Up> <Nop>
+noremap <Down> <Nop>
+noremap <Left> <Nop>
+noremap <Right> <Nop>

@@ -1,3 +1,5 @@
+set t_Co=256
+
 call plug#begin('~/.vim/plugged')
 
 Plug 'tpope/vim-fugitive'
@@ -16,10 +18,13 @@ Plug 'mattn/emmet-vim'
 Plug 'christoomey/vim-tmux-navigator'
 Plug 'scrooloose/syntastic'
 
+"For statusline
+Plug 'vim-airline/vim-airline'
+Plug 'vim-airline/vim-airline-themes'
+
+
 "For Javscript
 Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
-
-
 
 "For Colors
 Plug 'sonph/onehalf', {'rtp': 'vim/'}
@@ -29,3 +34,4 @@ call plug#end()
 source ~/.vim/startup/settings.vim
 source ~/.vim/startup/mappings.vim
 source ~/.vim/startup/pluginSettings.vim
+
