@@ -32,11 +32,11 @@ syntax on
 
 " Toggle between color scheme 
 if has('gui_running')
-  set background=light
-  colorscheme solarized
+  set background=dark
+  colorscheme xcodedarkhc
 else
   set background=dark
-  colorscheme zenburn
+  colorscheme xcodedarkhc
 endif
 "
 

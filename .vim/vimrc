@@ -13,52 +13,26 @@ Plug 'tmhedberg/SimpylFold'
 Plug 'tpope/vim-surround'
 Plug 'vim-scripts/indentpython.vim'
 Plug 'Valloric/YouCompleteMe', {'do':'./install.py --all'}
-" Plug 'vim-syntastic/syntastic'
 Plug 'nvie/vim-flake8'
 Plug 'scrooloose/nerdtree'
 Plug 'jistr/vim-nerdtree-tabs'
 Plug 'tpope/vim-fugitive'
 Plug 'vim-airline/vim-airline'
 Plug 'tpope/vim-commentary'
-
-" Copying to system clipboard
-"Install xsel to work properly
 Plug 'christoomey/vim-system-copy'
-
-
 Plug 'SirVer/ultisnips' | Plug 'honza/vim-snippets'
 Plug 'rstacruz/sparkup'
 Plug 'jiangmiao/auto-pairs'
 Plug 'nathanaelkane/vim-indent-guides'
-" Plug 'tomtom/tcomment_vim'
 Plug 'tmhedberg/matchit'
-" Plug 'kien/ctrlp.vim'
 Plug 'mileszs/ack.vim'
-
-"Colors for Vim
-Plug 'jnurmine/Zenburn'
-
-" For tmux and vim navigation
 Plug 'christoomey/vim-tmux-navigator'
-"
-"
-"For React
-" ES2015 code snippets (Optional)
 Plug 'epilande/vim-es2015-snippets'
-" add this line to your .vimrc file
 Plug 'mattn/emmet-vim'
 let g:user_emmet_leader_key='<C-Z>'
-
-" React code snippets
 Plug 'epilande/vim-react-snippets'
-
-" post install (yarn install | npm install) then load plugin only for editing supported files
-"
-" Trigger configuration (Optional)
-	let g:UltiSnipsExpandTrigger="<C-l>""
-"
-"
-" Initialize plugin system
+Plug 'arzg/vim-colors-xcode'
+let g:UltiSnipsExpandTrigger="<C-l>""
 call plug#end()
 
 source ~/.vim/startup/settings.vim
@@ -66,10 +40,6 @@ source ~/.vim/startup/mappings.vim
 source ~/.vim/startup/compileAndRun.vim
 source ~/.vim/startup/pluginsSettings.vim
 
-
-"Hiding .pyc in nerdtree
 let NERDTreeIgnore=['\.pyc$', '\~$'] "ignore files in NERDTree
 
-
-"Enabling normal js to read jsx
 let g:jsx_ext_required = 0 " Allow JSX in normal JS files"
