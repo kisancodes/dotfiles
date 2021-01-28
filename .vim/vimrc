@@ -32,6 +32,7 @@ Plug 'mattn/emmet-vim'
 let g:user_emmet_leader_key='<C-Z>'
 Plug 'epilande/vim-react-snippets'
 Plug 'arzg/vim-colors-xcode'
+Plug 'metakirby5/codi.vim'
 let g:UltiSnipsExpandTrigger="<C-l>""
 call plug#end()
 

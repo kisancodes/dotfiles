@@ -1,82 +1,54 @@
-# If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:/usr/local/bin:$PATH
-export ZSH="/home/cloudyfox/.oh-my-zsh"
+# -----------------------------------------------------------------------------------
+#                          EXPORTS PATHS                                            |
+# -----------------------------------------------------------------------------------
+# oh-my-zsh extension for zsh 
+export ZSH="/home/cloudyfox/.oh-my-zsh" 
+# export terraform
 export PATH=$PATH:"/home/cloudyfox/Downloads/terraform_0.13.0_linux_amd64/terraform"
+# AWS CLI Auto completer
+export PATH=$PATH:/usr/local/bin/aws_completer:$PATH
+# anaconda3
+export PATH=$HOME/anaconda3/bin:$PATH
+# Android SDK
+export ANDROID_HOME=$HOME/Android/Sdk
+export PATH=$PATH:$ANDROID_HOME/emulator
+export PATH=$PATH:$ANDROID_HOME/tools
+export PATH=$PATH:$ANDROID_HOME/tools/bin
+export PATH=$PATH:$ANDROID_HOME/platform-tools
+export PATH=$PATH:/usr/local/go/bin
 
+export SSH_KEY_PATH="~/.ssh/rsa_id"
+export VISUAL=vim
+export EDITOR="$VISUAL"  #default editor
+
+
+# -------------------------------------------------------------------------------------------------
+#                                 SPACESHIP_PROMPT CONFIGURATION                                  |
+# -------------------------------------------------------------------------------------------------
 # ZSH SPACESHIP PROMPT
-ZSH_THEME="spaceship"
 SPACESHIP_PROMPT_ADD_NEWLINE=false
 SPACESHIP_PROMPT_SEPARATE_LINE=true
 SPACESHIP_PROMPT_FIRST_PREFIX_SHOW=false
 SPACESHIP_TIME_SHOW=true
 SPACESHIP_TIME_FORMAT=%T
 SPACESHIP_PACKAGE_COLOR=green
+SPACESHIP_AWS_SHOW=true
+SPACESHIP_AWS_SYMBOL=true
+SPACESHIP_AWS_PREFIX=true
+SPACESHIP_AWS_SUFFIX=true
+SPACESHIP_AWS_COLOR=true
 
-export ANDROID_HOME=$HOME/Android/Sdk
-export PATH=$PATH:$ANDROID_HOME/emulator
-export PATH=$PATH:$ANDROID_HOME/tools
-export PATH=$PATH:$ANDROID_HOME/tools/bin
-export PATH=$PATH:$ANDROID_HOME/platform-tools
-
-lugins=(git)
+# -------------------------------------------------------------------------------------------------
+#                                 OTHER CONFIGURATIONS
+# ------------------------------------------------------------------------------------------------
 
 source $ZSH/oh-my-zsh.sh
-
-# Uncomment the following line to use case-sensitive completion.
+# auto complete setup for AWS CLI
+complete -C '/usr/local/bin/aws_completer' aws
 CASE_SENSITIVE="true"
-
-# Uncomment the following line to use hyphen-insensitive completion.
-# Case-sensitive completion must be off. _ and - will be interchangeable.
 HYPHEN_INSENSITIVE="true"
 
-# Uncomment the following line to disable bi-weekly auto-update checks.
-# DISABLE_AUTO_UPDATE="true"
-
-# Uncomment the following line to change how often to auto-update (in days).
-# export UPDATE_ZSH_DAYS=13
-
-# Uncomment the following line to disable colors in ls.
-# DISABLE_LS_COLORS="true"
-
-# Uncomment the following line to disable auto-setting terminal title.
-# DISABLE_AUTO_TITLE="true"
-
-# Uncomment the following line to enable command auto-correction.
-# ENABLE_CORRECTION="true"
-
-# Uncomment the following line to display red dots whilst waiting for completion.
-# COMPLETION_WAITING_DOTS="true"
-
-# Uncomment the following line if you want to disable marking untracked files
-# under VCS as dirty. This makes repository status check for large repositories
-# much, much faster.
-# DISABLE_UNTRACKED_FILES_DIRTY="true"
-
-# Uncomment the following line if you want to change the command execution time
-# stamp shown in the history command output.
-# You can set one of the optional three formats:
-# "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
-# or set a custom format using the strftime function format specifications,
-# see 'man strftime' for details.
-# HIST_STAMPS="mm/dd/yyyy"
-
-# Would you like to use another custom folder than $ZSH/custom?
-# ZSH_CUSTOM=/path/to/new-custom-folder
-
-# Which plugins would you like to load?
-# Standard plugins can be found in ~/.oh-my-zsh/plugins/*
-# Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
-# Example format: plugins=(rails git textmate ruby lighthouse)
-# Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
-
-
-# User configuration
-
-# export MANPATH="/usr/local/man:$MANPATH"
-
-# You may need to manually set your language environment
-# export LANG=en_US.UTF-8
+ZSH_THEME="spaceship" # theme
 
 # Preferred editor for local and remote sessions
 if [[ -n $SSH_CONNECTION ]]; then
@@ -84,31 +56,35 @@ if [[ -n $SSH_CONNECTION ]]; then
  else
    export EDITOR='mvim'
  fi
-
-# Compilation flags
-# export ARCHFLAGS="-arch x86_64"
-
-# ssh
-export SSH_KEY_PATH="~/.ssh/rsa_id"
-
-# Set personal aliases, overriding those provided by oh-my-zsh libs,
-# plugins, and themes. Aliases can be placed here, though oh-my-zsh
-# users are encouraged to define aliases within the ZSH_CUSTOM folder.
-# For a full list of active aliases, run `alias`.
-#
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
-export VISUAL=vim
-export EDITOR="$VISUAL"
-
 # Custom aliases
 . ~/dotfiles/system/.aliases
 . ~/dotfiles/system/.functions
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-plugins=(git nvm zsh-autosuggestions)
+plugins=(git nvm zsh-autosuggestions aws)
 
 
 autoload -U +X bashcompinit && bashcompinit
 complete -o nospace -C /usr/local/bin/terraform terraform
+source $ZSH/oh-my-zsh.sh
+
+# -------------------------------------------------------------------------------------------------
+#																	CONDA CONFIGURATIJON                                            |
+# -------------------------------------------------------------------------------------------------
+#
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/home/cloudyfox/anaconda3/bin/conda' 'shell.zsh' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/home/cloudyfox/anaconda3/etc/profile.d/conda.sh" ]; then
+        . "/home/cloudyfox/anaconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/home/cloudyfox/anaconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+
+# -------------------------------------------------------------------------------------------------- 

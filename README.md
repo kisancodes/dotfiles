@@ -1,4 +1,5 @@
-# DOTFILES
+# Dotfiles
+![Neofetch](/images/neofetch.png)
 
 The repository contains config files for vim, i3, tmux, zsh. It's my own configurations of choice. If you like it, you can use it, just follow the instruction given below.
 

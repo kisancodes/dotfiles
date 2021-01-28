@@ -23,6 +23,10 @@ func! CompileRunGcc()
 				elseif &filetype == 'mkd'
 								exec "!~/.vim/markdown.pl % > %.html &"
 								exec "!google-chrome%.html &"
+				elseif &filetype == 'js'
+								exec "exec '!/usr/local/bin/node' '-e'  shellescape(getline('.')")
+
+
 				endif
 endfunc
 	 				 				 				
