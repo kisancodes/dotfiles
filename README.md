@@ -1,4 +1,9 @@
 # Dotfiles
+
+[![MIT License](https://img.shields.io/apm/l/atomic-design-ui.svg?)](https://opensource.org/licenses/MIT)
+[![made-with-Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](https://guides.github.com/features/mastering-markdown/)
+[![Twitter Follow](https://img.shields.io/twitter/follow/bstevensondev.svg?style=social)](https://twitter.com/kisanpakhreen)
+
 ![Neofetch](/images/neofetch.png)
 
 The repository contains config files for vim, i3, tmux, zsh. It's my own configurations of choice. If you like it, you can use it, just follow the instruction given below.
