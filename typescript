@@ -1,205 +1,0 @@
-Script started on 2020-01-11 12:08:00+0545
-[1m[7m%[27m[1m[0m                                                                                            ]2;jarvis@jarvis: ~/dotfiles]1;~/dotfiles[0m[27m[24m[J[01;32m➜  [36mdotfiles[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hcclear[?1l>[?2004l
-]2;clear]1;clear[3J[H[2J[1m[7m%[27m[1m[0m                                                                                            ]2;jarvis@jarvis: ~/dotfiles]1;~/dotfiles[0m[27m[24m[J[01;32m➜  [36mdotfiles[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hlls[?1l>[?2004l
-]2;ls --color=tty]1;lsbootstrap.sh  [0m[01;34mi3[0m  [01;34mpython[0m  README.md  [01;34mscripts[0m  [01;34msystem[0m  typescript
-[1m[7m%[27m[1m[0m                                                                                            ]2;jarvis@jarvis: ~/dotfiles]1;~/dotfiles[0m[27m[24m[J[01;32m➜  [36mdotfiles[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hccd scripts[?1l>[?2004l
-]2;cd scripts]1;cd[1m[7m%[27m[1m[0m                                                                                            ]2;jarvis@jarvis: ~/dotfiles/scripts]1;..files/scripts[0m[27m[24m[J[01;32m➜  [36mscripts[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hlls[?1l>[?2004l
-]2;ls --color=tty]1;lsDatesNotes.txt  [0m[01;32mdjangosetup.py[0m  Notes-shellScripting.txt  [01;32mreact-dev.sh[0m  zsh_histry_fix.sh
-[01;32mdev-tmux.sh[0m     DJ.sh           [01;34mpractise[0m                  [01;32mworkshop.sh[0m
-[1m[7m%[27m[1m[0m                                                                                            ]2;jarvis@jarvis: ~/dotfiles/scripts]1;..files/scripts[0m[27m[24m[J[01;32m➜  [36mscripts[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hvvi v  ccd pr  c  ...[?1l>[?2004l
-]2;..]1;..[1m[7m%[27m[1m[0m                                                                                            ]2;jarvis@jarvis: ~/dotfiles]1;~/dotfiles[0m[27m[24m[J[01;32m➜  [36mdotfiles[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hlls[?1l>[?2004l
-]2;ls --color=tty]1;lsbootstrap.sh  [0m[01;34mi3[0m  [01;34mpython[0m  README.md  [01;34mscripts[0m  [01;34msystem[0m  typescript
-[1m[7m%[27m[1m[0m                                                                                            ]2;jarvis@jarvis: ~/dotfiles]1;~/dotfiles[0m[27m[24m[J[01;32m➜  [36mdotfiles[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hppython    p  ccd python[?1l>[?2004l
-]2;cd python]1;cd[1m[7m%[27m[1m[0m                                                                                            ]2;jarvis@jarvis: ~/dotfiles/python]1;..tfiles/python[0m[27m[24m[J[01;32m➜  [36mpython[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hlls[?1l>[?2004l
-]2;ls --color=tty]1;lstry.py
-[1m[7m%[27m[1m[0m                                                                                            ]2;jarvis@jarvis: ~/dotfiles/python]1;..tfiles/python[0m[27m[24m[J[01;32m➜  [36mpython[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hvvi try.py[1m [0m[0m [?1l>[?2004l
-]2;vi try.py]1;vi[?1000h[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;25r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[25;1H"try.py" 6L, 83C[2;1H▽[6n[2;1H  [1;1H[>c]10;?]11;?[1;1H[93m1   [m[35mimport[m os
-[33m  1 
-  2 [m[1m[36mprint[m(os.getcwd())
-[33m  3 
-  4 [mos.chdir([38;5;130m'/home/[m[38;5;130m[101mjarvis[m[38;5;130m/Desktop'[m)
-[33m  5 [m[1m[36mprint[m(os.getcwd())
-[1m[34m~                                                                                           [8;1H~                                                                                           [9;1H~                                                                                           [10;1H~                                                                                           [11;1H~                                                                                           [12;1H~                                                                                           [13;1H~                                                                                           [14;1H~                                                                                           [15;1H~                                                                                           [16;1H~                                                                                           [17;1H~                                                                                           [18;1H~                                                                                           [19;1H~                                                                                           [20;1H~                                                                                           [21;1H~                                                                                           [22;1H~                                                                                           [23;1H~                                                                                           [m[24;1H[38;5;17m[48;5;190m [m[1m[38;5;17m[48;5;190mNORMAL[m[38;5;17m[48;5;190m  SPELL [EN] [m[38;5;255m[48;5;238m ᚠ master [m[38;5;85m[48;5;234m try.py            python [m[38;5;255m[48;5;238m utf-8[unix] [m[38;5;17m[48;5;190m  16% [m[1m[38;5;17m[48;5;190m☰    1/6 ㏑[m[38;5;17m[48;5;190m :  1 [1;5H[?25hP+q436f\P+q6b75\P+q6b64\P+q6b72\P+q6b6c\P+q2332\P+q2334\P+q2569\P+q2a37\P+q6b31\[?1000l[?1006h[?1002h[?1006l[?1002l[?1006h[?1002h[?25l[m[33m  1 [m
-[93m2   [m[3;3H[33m1
-  2
-  3
-  4[m[24;30H[38;5;255m[48;5;238m! [m[38;5;85m[48;5;234m try.py[m[33C[38;5;17m[48;5;190m33[m[7C[1m[38;5;17m[48;5;190m2/[2;5H[?25h[?25l[m[25;82Hj[2;5H[25;82H [3;5H[1;3H[33m2
-  1 [m
-[93m3   [m[4;3H[33m1
-  2
-  3[m[24;72H[38;5;17m[48;5;190m50[m[7C[1m[38;5;17m[48;5;190m3/[3;5H[?25h[?25l[m[25;82Hj[3;5H[25;82H [4;5H[1;3H[33m3
-  2
-  1 [m
-[93m4   [m[5;3H[33m1
-  2[m[24;72H[38;5;17m[48;5;190m66[m[7C[1m[38;5;17m[48;5;190m4/[4;5H[?25h[?25l[m[25;82Hj[4;5H[25;82H [5;5H[1;3H[33m4
-  3
-  2
-  1 [m
-[93m5   [m[6;3H[33m1[m[24;72H[38;5;17m[48;5;190m83[m[7C[1m[38;5;17m[48;5;190m5/[5;5H[?25h[?25l[m[25;82Hj[5;5H[25;82H [6;5H[1;3H[33m5
-  4
-  3
-  2
-  1 [m
-[93m6   [m[24;71H[38;5;17m[48;5;190m100[m[7C[1m[38;5;17m[48;5;190m6/[6;5H[?25h[?25l[m[25;82Hk[6;5H[25;82H [5;5H[1;3H[33m4
-  3
-  2
-  1[m
-[93m5   [m
-[33m  1 [m[24;71H[38;5;17m[48;5;190m 83[m[7C[1m[38;5;17m[48;5;190m5/[5;5H[?25h[?25l[m[25;82Hk[5;5H[25;82H [4;5H[1;3H[33m3
-  2
-  1[m
-[93m4   [m
-[33m  1 
-  2[m[24;72H[38;5;17m[48;5;190m66[m[7C[1m[38;5;17m[48;5;190m4/[4;5H[?25h[?25l[?25h[?25l[m[1;3H[33m2
-  1[m
-[93m3   [m
-[33m  1 
-  2
-  3[m[24;72H[38;5;17m[48;5;190m50[m[7C[1m[38;5;17m[48;5;190m3/[3;5H[?25h[?25l[m[1;3H[33m1[m
-[93m2   [m
-[33m  1 
-  2
-  3
-  4[m[24;72H[38;5;17m[48;5;190m33[m[7C[1m[38;5;17m[48;5;190m2/[2;5H[?25h[?25l[m[1;1H[93m1   [m
-[33m  1 
-  2
-  3
-  4
-  5[m[24;72H[38;5;17m[48;5;190m16[m[7C[1m[38;5;17m[48;5;190m1/[1;5H[?25h[?25l[m[25;82Hk[1;5H[25;82H [1;5H[?25h[?25l[25;82Hk[1;5H[25;82H [1;5H[?25h[?25l[25;82Hj[1;5H[25;82H [2;5H[1;1H[33m  1 [m
-[93m2   [m[3;3H[33m1
-  2
-  3
-  4[m[24;72H[38;5;17m[48;5;190m33[m[7C[1m[38;5;17m[48;5;190m2/[2;5H[?25h[?25l[m[25;82H:[2;5H[25;1H[K[25;1H:[?2004h[?25hq[?25l[?25h[?25l[?1006l[?1002l[?2004l[25;1H[K[25;1H[?2004l[?1l>[?25h[?1049l[23;0;0t[1m[7m%[27m[1m[0m                                                                                            ]2;jarvis@jarvis: ~/dotfiles/python]1;..tfiles/python[0m[27m[24m[J[01;32m➜  [36mpython[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hggit status[?1l>[?2004l
-]2;git status]1;gitOn branch master
-Your branch is up to date with 'origin/master'.
-
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git checkout -- <file>..." to discard changes in working directory)
-
-	[31mmodified:   ../.vim/startup/compileAndRun.vim[m
-	[31mmodified:   ../.vim/startup/pluginsSettings.vim[m
-	[31mmodified:   ../.vim/vimrc[m
-	[31mmodified:   ../.zshrc[m
-	[31mmodified:   try.py[m
-
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-
-	[31m../.vim/.netrwhist[m
-	[31m../.vim/.vim[m
-	[31m../typescript[m
-
-no changes added to commit (use "git add" and/or "git commit -a")
-[1m[7m%[27m[1m[0m                                                                                            ]2;jarvis@jarvis: ~/dotfiles/python]1;..tfiles/python[0m[27m[24m[J[01;32m➜  [36mpython[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hggit add .[?1l>[?2004l
-]2;git add .]1;git[1m[7m%[27m[1m[0m                                                                                            ]2;jarvis@jarvis: ~/dotfiles/python]1;..tfiles/python[0m[27m[24m[J[01;32m➜  [36mpython[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004ht ggit status[?1l>[?2004l
-]2;git status]1;gitOn branch master
-Your branch is up to date with 'origin/master'.
-
-Changes to be committed:
-  (use "git reset HEAD <file>..." to unstage)
-
-	[32mmodified:   try.py[m
-
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git checkout -- <file>..." to discard changes in working directory)
-
-	[31mmodified:   ../.vim/startup/compileAndRun.vim[m
-	[31mmodified:   ../.vim/startup/pluginsSettings.vim[m
-	[31mmodified:   ../.vim/vimrc[m
-	[31mmodified:   ../.zshrc[m
-
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-
-	[31m../.vim/.netrwhist[m
-	[31m../.vim/.vim[m
-	[31m../typescript[m
-
-[1m[7m%[27m[1m[0m                                                                                            ]2;jarvis@jarvis: ~/dotfiles/python]1;..tfiles/python[0m[27m[24m[J[01;32m➜  [36mpython[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hggit add .[?1l>[?2004l
-]2;git add .]1;git[1m[7m%[27m[1m[0m                                                                                            ]2;jarvis@jarvis: ~/dotfiles/python]1;..tfiles/python[0m[27m[24m[J[01;32m➜  [36mpython[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hggit status[?1l>[?2004l
-]2;git status]1;gitOn branch master
-Your branch is up to date with 'origin/master'.
-
-Changes to be committed:
-  (use "git reset HEAD <file>..." to unstage)
-
-	[32mmodified:   try.py[m
-
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git checkout -- <file>..." to discard changes in working directory)
-
-	[31mmodified:   ../.vim/startup/compileAndRun.vim[m
-	[31mmodified:   ../.vim/startup/pluginsSettings.vim[m
-	[31mmodified:   ../.vim/vimrc[m
-	[31mmodified:   ../.zshrc[m
-
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-
-	[31m../.vim/.netrwhist[m
-	[31m../.vim/.vim[m
-	[31m../typescript[m
-
-[1m[7m%[27m[1m[0m                                                                                            ]2;jarvis@jarvis: ~/dotfiles/python]1;..tfiles/python[0m[27m[24m[J[01;32m➜  [36mpython[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hggit g  [H[2J[0m[27m[24m[J[01;32m➜  [36mpython[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [Kggit status[?1l>[?2004l
-]2;git status]1;gitOn branch master
-Your branch is up to date with 'origin/master'.
-
-Changes to be committed:
-  (use "git reset HEAD <file>..." to unstage)
-
-	[32mmodified:   try.py[m
-
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git checkout -- <file>..." to discard changes in working directory)
-
-	[31mmodified:   ../.vim/startup/compileAndRun.vim[m
-	[31mmodified:   ../.vim/startup/pluginsSettings.vim[m
-	[31mmodified:   ../.vim/vimrc[m
-	[31mmodified:   ../.zshrc[m
-
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-
-	[31m../.vim/.netrwhist[m
-	[31m../.vim/.vim[m
-	[31m../typescript[m
-
-[1m[7m%[27m[1m[0m                                                                                            ]2;jarvis@jarvis: ~/dotfiles/python]1;..tfiles/python[0m[27m[24m[J[01;32m➜  [36mpython[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hggit coomit     mmit -m "git   i2  3 script as dded"[?1l>[?2004l
-]2;git commit -m "i3 script added"]1;git[master 6b6a443] i3 script added
- 1 file changed, 1 insertion(+), 1 deletion(-)
-[1m[7m%[27m[1m[0m                                                                                            ]2;jarvis@jarvis: ~/dotfiles/python]1;..tfiles/python[0m[27m[24m[J[01;32m➜  [36mpython[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hcclear[?1l>[?2004l
-]2;clear]1;clear[3J[H[2J[1m[7m%[27m[1m[0m                                                                                            ]2;jarvis@jarvis: ~/dotfiles/python]1;..tfiles/python[0m[27m[24m[J[01;32m➜  [36mpython[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hggit status[?1l>[?2004l
-]2;git status]1;gitOn branch master
-Your branch is ahead of 'origin/master' by 1 commit.
-  (use "git push" to publish your local commits)
-
-Changes not staged for commit:
-  (use "git add <file>..." to update what will be committed)
-  (use "git checkout -- <file>..." to discard changes in working directory)
-
-	[31mmodified:   ../.vim/startup/compileAndRun.vim[m
-	[31mmodified:   ../.vim/startup/pluginsSettings.vim[m
-	[31mmodified:   ../.vim/vimrc[m
-	[31mmodified:   ../.zshrc[m
-
-Untracked files:
-  (use "git add <file>..." to include in what will be committed)
-
-	[31m../.vim/.netrwhist[m
-	[31m../.vim/.vim[m
-	[31m../typescript[m
-
-no changes added to commit (use "git add" and/or "git commit -a")
-[1m[7m%[27m[1m[0m                                                                                            ]2;jarvis@jarvis: ~/dotfiles/python]1;..tfiles/python[0m[27m[24m[J[01;32m➜  [36mpython[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hggit branch[?1l>[?2004l
-]2;git branch]1;git[?1049h[22;0;0t[?1h=* [32mmaster[m[m
-[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[K[7m(END)[27m[K[K[?1l>[?1049l[23;0;0t[1m[7m%[27m[1m[0m                                                                                            ]2;jarvis@jarvis: ~/dotfiles/python]1;..tfiles/python[0m[27m[24m[J[01;32m➜  [36mpython[00m [01;34mgit:([31mmaster[34m) [33m✗[00m [K[?1h=[?2004hggit push origin master[?1l>[?2004l
-]2;git push origin master]1;gitUsername for 'https://github.com': kisan101
-Password for 'https://kisan101@github.com': 
-Counting objects: 4, done.
-Delta compression using up to 4 threads.
-Compressing objects:  33% (1/3)   Compressing objects:  66% (2/3)   Compressing objects: 100% (3/3)   Compressing objects: 100% (3/3), done.
-Writing objects:  25% (1/4)   Writing objects:  50% (2/4)   Writing objects:  75% (3/4)   Writing objects: 100% (4/4)   Writing objects: 100% (4/4), 368 bytes | 368.00 KiB/s, done.
