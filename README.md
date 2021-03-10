@@ -21,22 +21,22 @@ The repository contains config files for vim, i3, tmux, zsh. It's my own configu
 `sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"`
 
 install fzf
-`git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf`
+`git clone --depth 1 https://github.com/junegunn/fzf.git ~/.fzf` </br>
 `~/.fzf/install`
 
 ### Backup bashrc and replace with my bashrc
 
-`mv ~/.bashrc ~/.bashrc_backup`
-`ln -sf ~/dotfiles/.bashrc ~/.bashrc`
+`mv ~/.bashrc ~/.bashrc_backup` </br>
+`ln -sf ~/dotfiles/.bashrc ~/.bashrc` </br>
 
 ### Backup zshrc and replace with my zshrc
 
-`mv ~/.zshrc ~/.zshrc_backup`
-`ln -sf ~/dotfiles/.zshrc ~/.zshrc`
+`mv ~/.zshrc ~/.zshrc_backup` </br>
+`ln -sf ~/dotfiles/.zshrc ~/.zshrc` </br>
 
 ### Backup i3/config and replace with my bashrc
 
-`cd ~/.config/ &&sudo rm -r i3`
+`cd ~/.config/ &&sudo rm -r i3` </br>
 `ln -sf ~/dotfiles/i3 ~/.config/`
 
 ### Setting up vim
@@ -50,7 +50,7 @@ install fzf
 
 Sometimes YCM doesn't get installed properly just to make sure execute the following commands
 Just make sure you have python installed
-`cd ~/.vim/plugged/YouCompleteMe/`
+`cd ~/.vim/plugged/YouCompleteMe/` </br>
 `./install.py --all`
 
 ### Setting up ZSH
@@ -61,8 +61,8 @@ Just make sure you have python installed
 ### Setting up tmux
 
 `ln -sf ~/dotfiles/.tmux.conf ~/` </br>
-`ln -sf ~/dotfiles/.tmux ~/`
-`ln -sf ~/dotfiles/.tmux-themepack ~/`
+`ln -sf ~/dotfiles/.tmux ~/` </br>
+`ln -sf ~/dotfiles/.tmux-themepack ~/` </br>
 `prefix + I(capital i as in Install) to fetch the plugins`
 
 # License
