@@ -12,7 +12,6 @@ The repository contains config files for vim, i3, tmux, zsh. It's my own configu
 `sudo apt install git` </br>
 `sudo apt install curl` </br>
 `sudo apt install vim` </br>
-`sudo apt install i3` </br>
 `sudo apt install tmux` </br>
 
 ### install zsh and oh-my-zsh
